@@ -59,7 +59,7 @@ class Developer extends Employee implements Skills{
 void main(){
   var dev=Developer("Ali Nasser", "Software Engineer");
   dev.age=23;
-  dev.salary=30000;
+  dev.salary=300000;
 
   dev.showInfo();
   dev.programming();

@@ -19,7 +19,7 @@ void addCourse(Map<String, dynamic> std, String std_name, String course_name, va
 
 double averageGrade(Map<String, dynamic> std, String name){
     if(!std.containsKey(name))
-        return 0.0;
+        return 0;
     double sum = 0;
     Map<String, dynamic> grades = std[name];
     int n = grades.length;

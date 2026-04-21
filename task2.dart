@@ -5,7 +5,7 @@ int enterStudentsNumber() {
   while (true) {
     noStd = int.tryParse(stdin.readLineSync() ?? "");
     if (noStd == null || noStd < 0) {
-      print("Enter A valid number");
+      print("enter A valid number");
     } else {
       break;
     }
